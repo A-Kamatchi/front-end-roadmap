@@ -1,0 +1,74 @@
+* {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+   
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 60vw;
+}
+.bold-word {
+    font-weight: bold;
+}
+/* Reset default padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section styling */
+#technology {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Individual tech box styling */
+.tech {
+    width: 30%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.tech:hover {
+    transform: translateY(-10px);
+}
+
+.tech img {
+    width: 80px; /* Adjust based on your icon size */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.tech p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+#social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+    padding: 20px;
+    background-color: #f8f9fa; /* Optional background color */
+}
+
+#social-links a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+#social-links a img:hover {
+    transform: scale(1.2); /* Slightly enlarge icon on hover */
+}
